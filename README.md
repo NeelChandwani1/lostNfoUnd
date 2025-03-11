@@ -1,7 +1,5 @@
 # Lost and Found App for Northeastern University
 
-![Northeastern University Logo](https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Northeastern_University_seal.svg/1200px-Northeastern_University_seal.svg.png)
-
 A mobile application designed to streamline the process of reporting and retrieving lost items on Northeastern University's campus. Built with **SwiftUI** and powered by **Firebase**, this app provides a modern and intuitive platform for users to report lost items, search for found items, and receive notifications when their items are found.
 
 ---
