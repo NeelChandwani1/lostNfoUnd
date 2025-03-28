@@ -2,7 +2,7 @@
 //  SignUpView.swift
 //  lostNfoUnd
 //
-//  Created by Neel Chandwani on 3/4/25.
+//  Created by Neel Chandwani on 1/28/25.
 //
 
 import SwiftUI
@@ -13,7 +13,7 @@ struct SignUpView: View {
     @State private var password: String = ""
     @State private var errorMessage: String = ""
     @Environment(\.presentationMode) var presentationMode
-    var onSignUpSuccess: () -> Void // Closure to notify parent view
+    var onSignUpSuccess: () -> Void 
 
     var body: some View {
         VStack(spacing: 20) {
@@ -53,8 +53,8 @@ struct SignUpView: View {
                 errorMessage = error.localizedDescription
             } else {
                 print("User signed up successfully!")
-                onSignUpSuccess() // Notify parent view of successful sign-up
-                presentationMode.wrappedValue.dismiss() // Dismiss the sign-up view
+                onSignUpSuccess() 
+                presentationMode.wrappedValue.dismiss() 
             }
         }
     }
